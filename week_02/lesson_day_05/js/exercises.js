@@ -81,13 +81,21 @@
 
 
 
-// let names = ["anu","bold","ariun"]
+// let names = ["anu","bold","ariun"];
 // for(let name of names ){
-//     if(name[0]== "a")
+//     if(name[0]== "a");
 //         console.log(name);
 
 // }
 
+
+let words = ["sain","baina","uu"];
+let sumOfArray = 0;
+for(let word of words){
+        sumOfArray = sumOfArray + word;
+    
+     console.log(`niit usgiin too:, ${sumOfArray} `);
+}
 
 
 
