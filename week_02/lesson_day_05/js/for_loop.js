@@ -47,3 +47,4 @@ sumOfArray = sumOfArray + number;
  myNumber--;
  console.log(myNumber);
  
+ 

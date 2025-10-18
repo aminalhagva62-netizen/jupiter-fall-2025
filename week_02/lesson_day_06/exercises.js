@@ -116,26 +116,12 @@
 // console.log("zainii too:",space_count);
 
 
-
-
-
-
-//19
-
-
 // let text ="hello";
 // let reversed_text = "";
 // for( let character of text){
 //         reversed_text = character + reversed_text;
 // }
 // console.log(reversed_text);
-
-
-
-
-
-// 20
-
 
 // let items =["alim","gadil","jurj"];
 // let item_to_find = "gadil";

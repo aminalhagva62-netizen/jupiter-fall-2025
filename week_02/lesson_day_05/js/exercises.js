@@ -89,13 +89,13 @@
 // }
 
 
-let words = ["sain","baina","uu"];
-let sumOfArray = 0;
-for(let word of words){
-        sumOfArray = sumOfArray + word;
+// let words = ["sain","baina","uu"];
+// let sumOfArray = 0;
+// for(let word of words){
+//         sumOfArray = sumOfArray + word;
     
-     console.log(`niit usgiin too:, ${sumOfArray} `);
-}
+//      console.log(`niit usgiin too:, ${sumOfArray} `);
+// }
 
 
 
