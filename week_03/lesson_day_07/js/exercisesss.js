@@ -164,28 +164,66 @@ chekAgeGroup(70);
 //dasgal 15 
 
 
-function countDownFrom(startNumber){
+// function countDownFrom(startNumber){
    
-    console.log(`${startNumber} -s toolj ehellee`)
-    for(let i = startNumber ; i >=1; i--){
-        let delay = (startNumber- i) *1000;
-       setTimeout(() => {
-        console.log(i);
-       }, delay);
-    }
-    setTimeout(() => {
-        console.log("hoorloo")
-    }, startNumber * 1000);
-    }
+//     console.log(`${startNumber} -s toolj ehellee`)
+//     for(let i = startNumber ; i >=1; i--){
+//         let delay = (startNumber- i) *1000;
+//        setTimeout(() => {
+//         console.log(i);
+//        }, delay);
+//     }
+//     setTimeout(() => {
+//         console.log("hoorloo")
+//     }, startNumber * 1000);
+//     }
     
-countDownFrom(5);
+// countDownFrom(5);
 
 // dasgal 16 
 
 // function drawRectangle(width,height,character){
-    
-    
+//     let pattern= ""
+//     for(let i = 1; i <=length; i++){
+//         pattern += character 
+        
 //     }
+// console.log(pattern);
+// }
+    
+
+// drawRectangle(10,4,"#");
+
+//dasgal 17 
+console.log("test");
+function drawPyramid(height){
+    for(let i = 1; i< height; i++){
+        let spaces = " ".repeat(height - i)
+        let stars ="*".repeat(2*i - 1)
+        console.log(spaces + stars )
+
+    }
+// hello = draw_Pyramid(5)
+// console.log(hello)
+}
+drawPyramid(5);
 
 
-// drawRectangle(10);
+
+//dasgal 18 
+
+function convertGradeTOLetter(score){
+
+    let scores = [75,92,81,60,88];
+let high_scores_count = 0;
+for(let score of scores){
+        if(score > 70)
+                high_scores_count = high_scores_count + 1;
+}
+console.log(`${score} onoo bol ${high_scores_count} unelgee`);
+
+
+
+}
+convertGradeTOLetter(95);
+convertGradeTOLetter(72);
