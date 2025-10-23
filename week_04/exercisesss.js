@@ -210,9 +210,32 @@ factorial()
 
 //15 
 
-function findLongestWord(words){
-    for(let word of words )
-if(word.length ===0 ){
+// function findLongestWord(words){
+//     for(let word of words ){
+// if(word.length ==0 ){
+// }
+// }
+// findLongestWord( "boldoo","anu")
+// }
+
+
+
+
+
+
+
+
+//18 
+function generateFibonacci(n){
+    if(n<=0) return[]
+    if(n === 1) return[0]
+    let sequence = [0,1]
+    for(let i = 2; i<n; i++){
+        let nextFib = sequence[i-1] + sequence[i - 2 ]
+    sequence.push(nextFib)
+
 }
+return sequence;
 }
-findLongestWord( "boldoo","anu")
+let result19 = generateFibonacci(10)
+console.log(`ehnii 10 gishuun [${result19.join(",")}]`)
