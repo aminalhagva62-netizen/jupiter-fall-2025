@@ -165,24 +165,24 @@ filterPositiveNumbers();
 
 //dasgal 3
 
-function findNumber(){
-    let data =[11,23,8,42,15,99]
-    let targetNumber = 42 ;
-    let found = false;
-    for(let i=0 ; i<=data.length ; i++){
-        if (data[i]=== targetNumber) {
-            found = true;
-            break
-        }
-    }
-    if(found){
-       console.log(targetNumber+"too oldlooo")
-    }else{
-        console.log("too oldsongui")
-    }
+// function findNumber(){
+//     let data =[11,23,8,42,15,99]
+//     let targetNumber = 42 ;
+//     let found = false;
+//     for(let i=0 ; i<=data.length ; i++){
+//         if (data[i]=== targetNumber) {
+//             found = true;
+//             break
+//         }
+//     }
+//     if(found){
+//        console.log(targetNumber+"too oldlooo")
+//     }else{
+//         console.log("too oldsongui")
+//     }
  
-}
-findNumber();
+// }
+// findNumber();
 
 
 
