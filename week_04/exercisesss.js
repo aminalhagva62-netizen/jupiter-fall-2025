@@ -239,3 +239,42 @@ return sequence;
 }
 let result19 = generateFibonacci(10)
 console.log(`ehnii 10 gishuun [${result19.join(",")}]`)
+
+
+//nemelt 1
+
+function calculateScore(actions){
+let score =80
+for (let i = 0; i<actions.length; i++){
+    if (actions[i] === "hit "){
+        score +=10; 
+    }else if (actions[i] === "miss"){
+        score -=5
+    }
+}
+return score
+}
+let result18 =calculateScore(["hit", "miss" ,"hit"])
+console.log("etssiin onoo", result18)
+
+//nemelt 2
+
+let colors = ["ulaan","tsenher","nogoon"]
+
+    console.log(" miniii durtai ongo bol "+colors[0] + "harin durgui ongo bol" +colors[2])
+    
+
+//nemelt 3
+// let s =prompt("ymar negen ug oruulna uu ")
+// let b = s.length
+// console.log(s.length);
+// console.log(`${s} gedeg ug ${b } usgees buredene  `)
+
+//nemelt4 
+
+let fruits = ["alim", "banana "]
+let p = prompt("nemeh jimsnii neree oruulna u ")
+fruits.push(p);
+console.log(`shine jigsaalt `)
+console.log(fruits)
+

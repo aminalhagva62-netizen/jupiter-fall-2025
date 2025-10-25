@@ -10,7 +10,7 @@ console.log(lastName);
 console.log(names);
 
 names.push("naran");
-console.log(names);
+console.log(names
 
 let firstName = names.shift();
 console.log(firstName);

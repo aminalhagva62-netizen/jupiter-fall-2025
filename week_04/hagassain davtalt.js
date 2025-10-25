@@ -54,3 +54,55 @@ if(t <5 && t <= 11){
 }else{
     console.log("shoniin  mend ")
 }
+
+
+//dasagl 8 
+
+console.log("1-10 hurtelh too :")
+for(let i = 1; i <= 10; i++){
+    console.log(` ${i}`);
+}
+//dasgal 9 
+console.log("2oos 20 hurtelh tegsh toonuud:")
+for(let i = 1; i <= 20; i++){
+    if(i % 2 == 0 ){
+        console.log("tegsh too ")
+    console.log(i);
+}
+}
+//dasgal 10
+let niilber = 0 
+
+for(let i = 1; i <= 50; i++){
+    niilber+=i;
+}
+ console.log(`1-50 hurtelh toonii niilber : ${niilber }`)
+
+//dun shatnii dasgal 1
+function calculateSumToLimit (limit,total){
+}calculateSumToLimit
+    let limit1 = 10 
+    let total1 = calculateSumToLimit(limit1)
+    let limit2 = 3 
+    let total2 = calculateSumToLimit(limit2)
+    console.log("1ees " + limit1 + "hurtelh niilber" +total1 )
+    console.log("1ees " + limit2 + "hurtelh niilber" +total2)
+
+
+
+//2
+function chekStringLength(text){
+if(text.length<10 ){
+    return "bogino "
+}else {
+    return("urt")
+}
+
+}
+    let word1= "sain "
+    let status1=chekStringLength(word1)
+    let word2= "huurhundddd "
+    let status2= chekStringLength(word2)
+    console.log("'" +word1 + "' ("+word1.length +"): " +status1)
+    console.log("'" +word2 + "' ("+word2.length +"): " +status2)
+
