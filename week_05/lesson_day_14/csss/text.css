@@ -1,0 +1,25 @@
+h1 {
+    color: blueviolet;
+    background-color: aqua;
+    text-align: center;/*gollluulah */
+}
+p {
+    font-size: 18px;/* 37.8px i 1cmd */
+    font-weight: 600;/* textiin orgon oorcloh  engiin ni 400 */
+    text-align: justify;
+
+}
+#my-p {
+    font-size: 18px;/* 37.8px i 1cmd */
+    font-weight: 600;/* textiin orgon oorcloh  engiin ni 400 */
+    background-color: blue;
+
+}
+.same-p {
+color: aquamarine;
+text-decoration: line-through;
+text-align:right;
+}
+.same-p:hover {
+    background-color: bisque;
+}
