@@ -1,0 +1,51 @@
+/* a {
+    color: rgb(146, 53, 138);
+    text-decoration: none; /*dooguur zuraas arilgah*/
+/* }
+a:hover { */
+    /* color: red; hulganaar hurehed ongo oorclogdono */
+    /* text-decoration:underline;
+} */
+/*
+Атрибут	Тайлбар
+href	Холбоосын хаяг
+target="_blank"	Шинэ таб дээр нээх
+title="..."	Хулганаар хүрэхэд tooltip текст гаргах
+download	Файлыг татаж авах линк үүсгэх*/
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: rgb(185, 73, 73);
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .item {
+    flex: 1; /* бүгд ижил хэмжээтэй */
+  /* }
+  .item:nth-child(2) {
+    flex: 2; хоёр дах элемент хоёр дахин том */
+  /* }
+  .container {
+    display: flex;
+    flex-direction: column;
+  } */ 
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #791f1f;
+    height: 20px;
+  }
+  
+  .box {
+    background: #cb65e2;
+    color: white;
+    padding: 40px;
+    border-radius: 50px;
+  }

@@ -5,7 +5,7 @@ h1 {
     font-style: italic;
 }
 .profile-card {
-    
+    border: solid black 10px;
      width: 900px;
     padding: 20px;
     margin: 50px auto;

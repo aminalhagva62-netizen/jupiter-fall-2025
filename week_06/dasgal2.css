@@ -1,0 +1,43 @@
+.box1 {
+    background-color: rgb(235, 44, 235);
+    color: azure;
+text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+.box2 {
+     display: flex;
+    justify-content: space-around;
+    
+}
+dt {
+ color:rgb(235, 44, 235);
+ font-size: 20px;
+}
+img {
+    border: solid rgb(235, 44, 235); 
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.box4 {
+   display: flex;
+    ;
+}
+.box {
+    color: azure;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background:rgb(44, 44, 50);
+    height: 50px;
+    display: flex;
+}
+.tovch {
+    background: rgb(235, 44, 235); ;
+    color: azure;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content:flex-end;
+}
