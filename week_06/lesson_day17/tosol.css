@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #585858;
+    height: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    font-family: Roboto;
+}
+
+.links a {
+    color: azure;
+    font-family: Roboto;
+    text-decoration: none;
+}
+.link {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto-VariableFont_wdth\,wght.ttf);
+}
+@font-face{
+font-family: IBMlexMono;
+src: url(./IBMPlexMono-Bold.ttf)
+}
+h1{
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}
+.paragraph{
+    color: azure;
+    font-family: IBM lexMono;
+    width: 450px;
+}
+.button{
+    width: 307px;
+    height: 63px;
+    background-color: #3F8E00;
+    border: solid red 1px;
+   text-align: center;
+   color: azure;
+   font-family: Roboto;
+   align-content: center;
+}
+.img{
+    border-radius: 50%;
+}
+.main1{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top: 40px;
+}
+.garchig{
+    font-family: IBM lexMono;
+    margin-left: 120px;
+    color: azure;
+}
+.images{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
