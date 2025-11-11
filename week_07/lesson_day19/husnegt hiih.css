@@ -1,0 +1,55 @@
+table {
+    border-collapse: collapse; 
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #000000; 
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #74ef8e;
+  }
+  td {
+    background-color: antiquewhite;
+  }
+  .ongo td{
+    background-color: aliceblue;
+  } */
+  
+
+ h2{
+    
+  text-align: center;
+  font-size: 20px;
+}
+.student{
+  border-collapse: collapse;
+  width: 80%;
+  margin:5%;
+}
+.student th{
+  background-color: rgb(104, 159, 225);
+}
+.dood{
+  background-color: rgb(104, 159, 225);
+
+}
+.student td,th{
+  text-align: center;
+
+}
+
+.taniltsuulga{
+width: 100%;
+text-align: center;
+border-collapse: collapse;
+}
+.taniltsuulga th{
+  background-color: rgb(244, 244, 127);
+  font-size: 20px;
+}
+h3{
+  text-align: center;
+ font-size: 30px;
+} 

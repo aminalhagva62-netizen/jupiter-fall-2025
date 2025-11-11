@@ -1,0 +1,57 @@
+h1 {
+    color: pink;
+    background-color: rgb(225, 132, 200);
+    text-align: center;
+    padding: 20px;
+}
+.users{
+    width: 400px;
+    border-collapse: collapse;
+}
+.users th,
+.users td {
+    border: 2px solid rgb(111, 8, 77);
+    padding: 8px;
+}
+.users th {
+    background-color: rgb(189, 92, 142);
+}
+.users tr:hover{
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+h2{
+    color: rgb(55, 74, 74);
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+.hiceel{
+    width: 300px;
+    border-collapse: collapse;
+    font-style: italic;
+}
+.hiceel th,
+.hiceel td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 9px;
+}
+.hiceel tr:hover{
+    background-color: bisque;
+}
+.hiceel th{
+    background-color: blanchedalmond;
+}
+.huvaari{
+    color: blueviolet;
+    text-align: center;
+    background-color: rgb(224, 184, 230);
+}
+td{
+    text-align: center;
+}
