@@ -1,0 +1,87 @@
+.Login {
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+.Login input {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(83, 77, 77);
+}
+
+.Login button {
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(3, 3, 3);
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+
+.user{
+    width: 400px;
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+.user input{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(161, 160, 160);
+}
+.user button{
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(111, 155, 255);
+    color: aliceblue;
+}
+.user h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.survevy {
+    width: 400px;
+    border-radius: 20px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+.survevy select{
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px 2px;
+    border: 1px solid rgb(104, 165, 255);
+
+}
+.survevy button {
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px 2px;
+    border: 1px solid rgb(104, 165, 255);
+    color: #ffffff;
+    background-color: rgb(104, 165, 255);
+
+}
+.survevy label{
+    display: block;
+   
+}
