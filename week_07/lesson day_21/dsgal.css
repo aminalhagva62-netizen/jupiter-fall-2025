@@ -1,0 +1,250 @@
+body {
+    background-color: #ffffff;
+}
+
+.header1 {
+    width: 1440;
+    height: 85;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-right: 127px;
+    padding-bottom: 7px;
+    padding-left: 127px;
+    display: flex;
+    background-color: rgb(237, 237, 237);
+    align-items: center;
+    font-weight: 500px;
+    line-height: 100%;
+    font-size: 20px;
+    font-style: medium;
+}
+
+.port {
+    width: 237;
+    height: 49;
+    gap: 10px;
+    padding: 10px;
+}
+
+.home {
+    width: 63;
+    height: 24;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.links {
+    display: flex;
+    width: 400px;
+    height: 42px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #75C310;
+}
+
+.frame {
+    width: 149px;
+    height: 44.53804397583008px;
+    left: 526px;
+    background-color: #75C310;
+    border-radius: 30px;
+    text-align: center;
+    color: azure;
+    align-content: center;
+}
+
+.frame a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.main1 h1 {
+    width: 429px;
+    height: 156px;
+    top: 176.75px;
+    left: 127px;
+
+    font-weight: 700px;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.main1 p {
+    width: 312px;
+    height: 60px;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.main1 img {
+    margin-right: 500px;
+
+
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 78px;
+    gap: 30px;
+    margin-left: 408px;
+}
+
+.button1 {
+    width: 200px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #75C310;
+    gap: 10px;
+    color: azure;
+    margin-top: 15px;
+    text-align: center;
+    align-content: center;
+}
+
+.main2 {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 78px;
+    gap: 30px;
+    margin-left: 408px;
+}
+
+.button2 {
+    width: 200px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #75C310;
+    gap: 10px;
+
+    color: azure;
+    margin-top: 15px;
+    text-align: center;
+    align-content: center;
+}
+
+.main2 h1 {
+    width: 429px;
+    height: 156px;
+    top: 176.75px;
+    left: 127px;
+    justify-content: space-around;
+    font-weight: 700px;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-between;
+    width: 568px;
+    height: 345px;
+    padding-top: 92px;
+    border-radius: 30px;
+
+
+}
+
+.main2 p {
+    width: 312px;
+    height: 60px;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.main3{
+   text-align: center;
+   
+margin-top: 157px;
+left: 241.5px;
+font-style: bold;
+font-size: 20px;
+
+}
+.main3 h1{
+    font-weight: 700px;
+    font-style:Montserrat;
+
+}
+.main3 .button3{
+    width: 200px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #75C310;
+    gap: 10px;
+    color: azure;
+    margin-top: 15px;
+    text-align: center;
+    align-content: center;
+   justify-content: center;
+   display: inline-block;
+
+}
+.main4{
+    text-align: center;
+}
+.main5{
+    background-color: #75C310;
+    height: 469px;
+ display: flex;
+
+   
+    
+}
+.main5 {
+    color: rgb(255, 255, 255);
+    font-size:25px;
+    margin-left: 245px;
+    margin-top: 70px;
+    font-weight: 700px;
+    font-style: bold;
+    height: 469px;
+}
+.main5  p{
+    color: rgb(255, 255, 255);
+    font-size:20px;
+    margin-left: 124px;
+    margin-top: 54px;
+    font-weight: 400px;
+    font-style: Medium;
+    display: block;
+    height: 60px;
+}
+.main5 .button4{
+    width: 200px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: white;
+    gap: 10px;
+    color: #000000;
+    margin-top: 54px;
+    text-align: center;
+    align-content: center;
+   justify-content: center;
+   display: inline-block;
+   font-weight: 500px;
+   font-style: Medium;
+   font-size: 20px;
+
+}
