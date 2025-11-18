@@ -1,0 +1,22 @@
+.box-1 {
+    width: 500px;
+    height:500px;
+    background-color: black;
+    color: rgb(254, 254, 254);
+    /* padding: 30px 60px 80px 100px; */
+    padding-top: 200px;
+    box-sizing: border-box;
+    border: 5px dotted lawngreen;
+    border-radius: 30px;
+}
+.box-1-inner{
+    background-color: bisque;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px 30px;
+    
+ border-top: 3px solid blue;
+ border-right: 3px dotted green;
+ border-bottom: 3px dashed pink;
+ border-left: 3px double yellow;
+}

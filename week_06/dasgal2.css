@@ -37,7 +37,8 @@ img {
 .tovch {
     background: rgb(235, 44, 235); ;
     color: azure;
-    padding: 20px;
-    border-radius: 20px;
-    justify-content:flex-end;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content:center;
+   
 }
