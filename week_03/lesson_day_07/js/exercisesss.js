@@ -67,7 +67,7 @@ console.log(`hot:${city}   duureg:${district}   gudamj:${street}`)
 printAddress();
 
 //dasgal 8
-
+``
 
 function showMultiplicationTable(number){
 
