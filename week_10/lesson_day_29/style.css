@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    width: 237px;
+    height: 29px;
+    top: 27px;
+    left: 856px;
+      gap: 34px;
+}
+div{
+    display: flex;
+    width: 855;
+height: 298;
+top: 210px;
+left: 148px;
+gap: 101px;
+opacity: 1;
+
+    
+}
+.text{
+    display: block;
+    width: 506px;
+    height:298px;
+    gap: 39px;
+    align-items: center;
+
+}
+.img{
+   align-items: center;
+}
