@@ -1,38 +1,32 @@
-header {
+header{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-  
+    justify-content: end;
+    gap:34px ;
+    padding: 27px 59px;
 }
-
-a {
+header a {
     text-decoration: none;
-    color: #000000;
-    width: 237px;
-    height: 29px;
-    top: 27px;
-    left: 856px;
-      gap: 34px;
+    color:#000000 ;
 }
-div{
+.box1{
     display: flex;
-    width: 855;
-height: 298;
-top: 210px;
-left: 148px;
-gap: 101px;
-opacity: 1;
-
-    
-}
-.text{
-    display: block;
-    width: 506px;
-    height:298px;
-    gap: 39px;
+    justify-content: center;
     align-items: center;
+    padding:87px 149px ;
+    width: 855px;
+    height: 298px;
+    margin: 0 auto;
+   
 
 }
-.img{
-   align-items: center;
+.box1 button{
+    padding: 10px 18px;
+    border-radius: 2px;
+    border: 1px solid #FF6464;
+    background-color:  #FF6464;
+    color: #FFFFFF;
+}
+
+.box2{
+display: flex;
 }

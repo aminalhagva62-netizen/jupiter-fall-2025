@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="card" role="main">
+        <h1>Simple TODO - (add / edit / delete /done)</h1>
+
+        <form id="todoForm" aria-label="Add todo">
+            <input id="todoInput" type="text" placeholder="write a new task...." autocomplete="off" required>
+            <button type="submit">Add</button>
+        </form>
+        <ul id="todoList" aria-live="polite"></ul>
+        <div class="empty" id="emptyState">TODO байхгүй байна.</div>
+        <div class="count" id="count"></div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
