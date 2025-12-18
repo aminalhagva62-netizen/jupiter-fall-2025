@@ -1,8 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export const MovieCard = ({movie}) => {
+    const navigate = useNavigate();
     return (
-        <div className='w-[171px] text-white shrink-0 mt-[50px]'>
+        <div  onClick={() => navigate(`/movie/${movie.main.id}`)}className='w-[171px] text-white shrink-0 mt-[50px]'>
             <div>
                 {
                     movie ? (
